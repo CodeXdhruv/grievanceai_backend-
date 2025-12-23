@@ -1,0 +1,22 @@
+GRIEVANCE DOCUMENT - BATCH TEST 3
+===================================
+
+1. POTHOLE DAMAGE ON HIGHWAY ROAD
+The road between Sector 15 and national highway has multiple large potholes formed after monsoon. Two-wheeler accidents are common due to these dangerous potholes. The street lighting is also damaged. Immediate road repair work is essential.
+[NOTE: This is a DUPLICATE of Document 1, Grievance 2 - same road issue]
+
+2. WATER METER MALFUNCTION
+My water meter is showing incorrect readings. Last month it showed 5000 liters when my actual usage was around 2000 liters. The water department refuses to check the meter. Please send a technician to inspect and replace the faulty meter.
+[NOTE: This is UNIQUE]
+
+3. IRREGULAR WATER SUPPLY IN BLOCK C
+Water is not coming properly in Sector 15 Block C area. We get supply only once a day for about 30 minutes. This has been going on for almost 15 days. Municipal office is not taking action. Please solve this water crisis.
+[NOTE: This is a DUPLICATE of Document 1 & 2, Grievance 1 - third version of same complaint]
+
+4. PLAYGROUND EQUIPMENT BROKEN
+The children's playground in Sector 15 park has broken swings and slides. It is dangerous for kids to play there. The park benches are also in bad condition. We request immediate repair of all playground equipment.
+[NOTE: This is a DUPLICATE of Document 1, Grievance 5 - park maintenance issue]
+
+5. STRAY DOG MENACE
+There are many stray dogs in our locality that are aggressive and have bitten several residents including children. No action has been taken by the municipal corporation despite multiple complaints. Please arrange for stray dog control.
+[NOTE: This is UNIQUE]

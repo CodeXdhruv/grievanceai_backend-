@@ -1,0 +1,22 @@
+GRIEVANCE DOCUMENT - BATCH TEST 2
+===================================
+
+1. WATER SHORTAGE IN RESIDENTIAL AREA
+The water supply in Sector 15, Block C has been erratic for two weeks now. We are only getting water for half an hour each morning. Multiple complaints to the municipality have gone unanswered. Please restore regular water supply immediately.
+[NOTE: This is a DUPLICATE of Document 1, Grievance 1 - rephrased]
+
+2. SEWAGE OVERFLOW COMPLAINT
+The sewage drain near Building 42 has been overflowing for 5 days. Dirty water is entering our compound and creating unhygienic conditions. Children cannot play outside. Urgent cleaning and drain repair is needed.
+[NOTE: This is UNIQUE]
+
+3. STREET LIGHT NOT WORKING
+All street lights on Main Road, Sector 15 have stopped working since last week. The area is in complete darkness at night making it unsafe for pedestrians and vehicles. Several accidents have already happened. Please repair the street lights urgently.
+[NOTE: This is a NEAR-DUPLICATE of Document 1, Grievance 2 - related issue]
+
+4. NOISE POLLUTION FROM FACTORY
+The factory adjacent to our residential colony operates heavy machinery 24 hours causing unbearable noise pollution. Residents cannot sleep at night and children's studies are affected. We request enforcement of noise regulations.
+[NOTE: This is UNIQUE]
+
+5. GARBAGE NOT COLLECTED
+For the last 10 days, the garbage truck has not come to our area. Waste is piling up on the streets and creating a health emergency. Dogs and pigs are scattering the garbage. Please restore garbage pickup service immediately.
+[NOTE: This is a DUPLICATE of Document 1, Grievance 3 - same issue, rephrased]
