@@ -1,0 +1,26 @@
+# Wrangler Configuration for Grievance Detection API
+
+name = "grievance-detection-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# D1 Database Configuration
+[[d1_databases]]
+binding = "DB"
+database_name = "grievance-db"
+database_id = "49950d13-7aed-46db-9596-daeabb43dcfe"
+
+# R2 Bucket Configuration (for PDF storage)
+[[r2_buckets]]
+binding = "PDF_BUCKET"
+bucket_name = "grievance-pdfs"
+preview_bucket_name = "grievance-pdfs-dev"
+
+# Environment Variables (non-secret)
+[vars]
+ENVIRONMENT = "production"
+
+# Development configuration
+[dev]
+port = 8787
+local_protocol = "http"

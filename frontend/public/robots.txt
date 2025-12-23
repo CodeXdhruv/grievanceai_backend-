@@ -1,0 +1,15 @@
+# Robots.txt for Grievance Detection System
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /submit-text
+Disallow: /submit-pdf
+Disallow: /grievances
+
+# Sitemap
+Sitemap: https://frontend-h8csd1hpo-dhruvs-projects-f49f75b9.vercel.app/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 10

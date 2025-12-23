@@ -1,0 +1,19 @@
+# Humans.txt - About the team behind Grievance Detection System
+
+/* TEAM */
+Developer: Dhruv Sen
+Contact: dhruvsen24@gmail.com
+Location: India
+
+/* THANKS */
+Special thanks to:
+- Cloudflare Workers for backend hosting
+- Vercel for frontend deployment
+- HuggingFace for NLP models
+
+/* SITE */
+Last update: 2025-12-07
+Standards: HTML5, CSS3, React, ES6+
+Components: React, Vite, TailwindCSS
+Backend: Cloudflare Workers, D1 Database, R2 Bucket
+AI/ML: Sentence Transformers, Cosine Similarity, NLP

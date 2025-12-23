@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  /* Card */
+  .card {
+    @apply bg-white rounded-xl border border-gray-100 p-6;
+  }
+  
+  /* Navigation */
+  .glass-nav {
+    @apply bg-white/95 backdrop-blur-md border-b border-gray-100;
+  }
+  
+  /* Primary Button - Softer Violet */
+  .btn-primary {
+    @apply px-5 py-2.5 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 transition-colors;
+  }
+  
+  /* Secondary Button */
+  .btn-secondary {
+    @apply px-5 py-2.5 bg-white text-gray-700 font-medium rounded-lg border border-gray-200 hover:border-gray-300 transition-colors;
+  }
+  
+  /* Input Fields - Softer focus */
+  .input-field {
+    @apply w-full px-4 py-3 bg-white border border-gray-200 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-50 focus:border-blue-300 transition-all;
+  }
+  
+  /* Status Badges */
+  .badge-unique {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-50 text-emerald-600 text-xs font-medium rounded-full;
+  }
+  
+  .badge-near {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 bg-amber-50 text-amber-600 text-xs font-medium rounded-full;
+  }
+  
+  .badge-duplicate {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 bg-red-50 text-red-600 text-xs font-medium rounded-full;
+  }
+  
+  /* Header Section */
+  .header-section {
+    @apply bg-white border-b border-gray-100;
+  }
+  
+  /* Stat Card */
+  .stat-card {
+    @apply bg-white rounded-xl border border-gray-100 p-5;
+  }
+  
+  /* Content Section */
+  .content-section {
+    @apply max-w-5xl mx-auto px-6;
+  }
+  
+  /* Category Badges */
+  .badge-category {
+    @apply inline-flex items-center px-3 py-1 text-xs font-medium rounded-full;
+  }
+  
+  .badge-category-water { @apply bg-blue-50 text-blue-600; }
+  .badge-category-garbage { @apply bg-emerald-50 text-emerald-600; }
+  .badge-category-road { @apply bg-orange-50 text-orange-600; }
+  .badge-category-electricity { @apply bg-yellow-50 text-yellow-600; }
+  .badge-category-sewage { @apply bg-blue-50 text-blue-500; }
+  .badge-category-noise { @apply bg-pink-50 text-pink-600; }
+  .badge-category-park { @apply bg-teal-50 text-teal-600; }
+  .badge-category-other { @apply bg-gray-50 text-gray-600; }
+}
+
+@layer utilities {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+::selection {
+  background: rgba(139, 92, 246, 0.1);
+}

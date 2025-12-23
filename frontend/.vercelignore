@@ -1,0 +1,16 @@
+# Brotli compression settings for better performance
+# This file is used by build tools to enable compression
+
+# Enable Brotli compression
+*.js.br
+*.css.br
+*.html.br
+*.json.br
+*.svg.br
+
+# Gzip compression fallback
+*.js.gz
+*.css.gz
+*.html.gz
+*.json.gz
+*.svg.gz

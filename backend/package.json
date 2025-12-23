@@ -1,0 +1,20 @@
+{
+  "name": "grievance-detection-backend",
+  "version": "1.0.0",
+  "description": "Grievance Detection System Backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create grievance-db",
+    "db:init": "wrangler d1 execute grievance-db --file=schema.sql",
+    "db:query": "wrangler d1 execute grievance-db --command"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.52.1"
+  }
+}
